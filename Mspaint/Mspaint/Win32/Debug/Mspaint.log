@@ -1,0 +1,86 @@
+﻿生成启动时间为 2019/1/3 14:06:06。
+     1>项目“C:\Qt\Qt_Project\Mspaint\Mspaint.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing paintshap.h...
+         Moc'ing shap.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_lines.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_lines.cpp, Release\moc_lines.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mainwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_mainwindow.cpp, Release\moc_mainwindow.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_paintshap.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_paintshap.cpp, Release\moc_paintshap.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_shap.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_shap.cpp, Release\moc_shap.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I..\..\..\qt\qt5.7.0\5.7\msvc2013\include /I..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtWidgets /I..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtGui /I..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtANGLE /I..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtCore /Idebug /I. /I"..\..\..\qt\qt5.7.0\5.7\msvc2013\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -w34100 -w34189 -w44996 Debug\moc_lines.cpp Debug\moc_mainwindow.cpp Debug\moc_paintshap.cpp Debug\moc_shap.cpp ellipse.cpp eraser.cpp line.cpp lines.cpp main.cpp mainwindow.cpp paintshap.cpp rect.cpp shap.cpp text.cpp
+         moc_lines.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\debug\../lines.h(7): warning C4584: “Lines”: 基类“QObject”已是“Shap”的基类
+                 C:\qt\qt5.7.0\5.7\msvc2013\include\QtCore/qobject.h(113) : 参见“QObject”的声明
+                 c:\qt\qt_project\mspaint\shap.h(7) : 参见“Shap”的声明
+         moc_mainwindow.cpp
+     1>c:\qt\qt_project\mspaint\debug\../mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_paintshap.cpp
+     1>c:\qt\qt_project\mspaint\debug\../paintshap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_shap.cpp
+     1>c:\qt\qt_project\mspaint\debug\../shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ellipse.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         eraser.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>eraser.cpp(10): warning C4100: “painter”: 未引用的形参
+         line.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         lines.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\lines.h(7): warning C4584: “Lines”: 基类“QObject”已是“Shap”的基类
+                 C:\qt\qt5.7.0\5.7\msvc2013\include\QtCore/qobject.h(113) : 参见“QObject”的声明
+                 c:\qt\qt_project\mspaint\shap.h(7) : 参见“Shap”的声明
+     1>lines.cpp(10): warning C4100: “painter”: 未引用的形参
+         main.cpp
+     1>c:\qt\qt_project\mspaint\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mainwindow.cpp
+     1>mainwindow.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\PaintShap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         paintshap.cpp
+     1>paintshap.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\paintshap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\qt\qt_project\mspaint\lines.h(7): warning C4584: “Lines”: 基类“QObject”已是“Shap”的基类
+                 C:\qt\qt5.7.0\5.7\msvc2013\include\QtCore/qobject.h(113) : 参见“QObject”的声明
+                 c:\qt\qt_project\mspaint\shap.h(7) : 参见“Shap”的声明
+     1>paintshap.cpp(74): warning C4100: “event”: 未引用的形参
+         rect.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         shap.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>shap.cpp(9): warning C4100: “pix”: 未引用的形参
+     1>shap.cpp(9): warning C4100: “painter”: 未引用的形参
+     1>shap.cpp(13): warning C4100: “pix”: 未引用的形参
+     1>shap.cpp(13): warning C4100: “painter”: 未引用的形参
+         text.cpp
+     1>c:\qt\qt_project\mspaint\shap.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\Mspaint.exe" /NOLOGO /LIBPATH:C:\QT\Qt5.7.0\5.7\msvc2013\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\QT\Qt5.7.0\5.7\msvc2013\lib C:\QT\Qt5.7.0\5.7\msvc2013\lib\qtmaind.lib shell32.lib C:\QT\Qt5.7.0\5.7\msvc2013\lib\Qt5Widgetsd.lib C:\QT\Qt5.7.0\5.7\msvc2013\lib\Qt5Guid.lib C:\QT\Qt5.7.0\5.7\msvc2013\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\Mspaint.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Debug\moc_lines.obj
+         Win32\Debug\moc_mainwindow.obj
+         Win32\Debug\moc_paintshap.obj
+         Win32\Debug\moc_shap.obj
+         Win32\Debug\ellipse.obj
+         Win32\Debug\eraser.obj
+         Win32\Debug\qrc_res.obj
+         Win32\Debug\line.obj
+         Win32\Debug\lines.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mainwindow.obj
+         Win32\Debug\paintshap.obj
+         Win32\Debug\rect.obj
+         Win32\Debug\shap.obj
+         Win32\Debug\text.obj
+         Mspaint.vcxproj -> C:\Qt\Qt_Project\Mspaint\debug\Mspaint.exe
+     1>已完成生成项目“C:\Qt\Qt_Project\Mspaint\Mspaint.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.02
