@@ -21,6 +21,7 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h \
     gamecontroller.h \
     food.h \
-    snake.h
+    snake.h \
+    constants.h
 
 FORMS    += mainwindow.ui

@@ -30,7 +30,7 @@ public slots:
     void gameOver();//游戏结束
 
 protected:
-    bool eventFilter(QObject *watched, QEvent *event);
+    bool eventFilter(QObject *object, QEvent *event);
 
 private:
     void handleKeyPressed(QKeyEvent *event);

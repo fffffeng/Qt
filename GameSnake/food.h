@@ -9,8 +9,11 @@ class Food : public QGraphicsItem
 public:
     Food(qreal x,qreal y);
 
-    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+    void paint(QPainter *painter,
+               const QStyleOptionGraphicsItem *option, QWidget *widget);
     QRectF boundingRect()const;
+    QPainterPath shap()const;
+
 };
 
 #endif // FOOD_H
