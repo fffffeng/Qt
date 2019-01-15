@@ -6,7 +6,6 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     m_scene(new QGraphicsScene(this)),
     m_view(new QGraphicsView(m_scene,this)),
-    m_game(new GameController()),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);

@@ -1,5 +1,5 @@
 #include "gamecontroller.h"
-
+#include <QMessageBox>
 
 GameController::GameController(QGraphicsScene& scene,QObject* parent)
     :QObject(parent)
@@ -74,7 +74,21 @@ void GameController::gameOver()//处理游戏结束
     //断开和定时器和advance的链接
     disconnect(&m_timer,SIGNAL(timeout()),m_scene,SLOT(advance()));
     //弹出一个窗口，是否选择”重开游戏“或者”退出“
-    if()
+    if(QMessageBox::Yes == QMessageBox::information(NULL,"Gane Over!","Play Again?",
+                                                    QMessageBox::Yes|QMessageBox::No,
+                                                    QMessageBox::Yes))
+    {
+        connect(&m_timer,SIGNAL(timeout()),m_scene,SLOT(advance()));
+        m_scene->clear();
+        
+        m_snake = new Snake(*this); 
+        m_scene->addItem(m_snake);
+        
+        addNewFood();
+    }else
+    {
+        exit(0);
+    }
 }
 
 void GameController::handleKeyPressed(QKeyEvent *event)
