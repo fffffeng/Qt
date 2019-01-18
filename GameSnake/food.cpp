@@ -9,7 +9,8 @@ Food::Food(qreal x, qreal y)
     setData(GD_Type,GO_Food);
 }
 
-void Food::paint(QPainter *painter,const QStyleOptionGraphicsItem *option, QWidget *widget)
+void Food::paint(QPainter *painter,
+                 const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     painter->save();
     painter->setRenderHint(QPainter::Antialiasing);
@@ -24,6 +25,6 @@ QRectF Food::boundingRect()const
 QPainterPath Food::shap()const
 {
     QPainterPath path;
-    path.addEllipse(-10/2,10/2,3,3);
+    path.addEllipse(QPointF(10/2,10/2),5,5);
     return path;
 }

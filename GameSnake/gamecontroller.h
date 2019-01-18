@@ -37,11 +37,12 @@ private:
     void addNewFood();//新增食物
 
 private:
-    Snake* m_snake;
-    QGraphicsScene* m_scene;
-    bool m_isPause;
 
+    Snake* m_snake;
+    QGraphicsScene& m_scene;
     QTimer m_timer;
+
+    bool m_isPause;
 
 };
 

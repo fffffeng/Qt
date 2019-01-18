@@ -19,10 +19,14 @@ public:
 
     Snake(GameController& controller);
 
-    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+    void paint(QPainter *painter,
+               const QStyleOptionGraphicsItem *option, QWidget *widget);
     QPainterPath shape()const;
     QRectF boundingRect()const;
 
+    void setMoveDirection(Directiion d);
+
+protected:
     void advance(int phase);
 
 private:

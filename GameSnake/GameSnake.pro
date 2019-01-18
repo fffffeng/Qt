@@ -25,3 +25,6 @@ HEADERS  += mainwindow.h \
     constants.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    res.qrc
