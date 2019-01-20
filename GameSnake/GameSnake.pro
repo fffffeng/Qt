@@ -14,9 +14,17 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    gamecontroller.cpp
+    gamecontroller.cpp \
+    food.cpp \
+    snake.cpp
 
 HEADERS  += mainwindow.h \
-    gamecontroller.h
+    gamecontroller.h \
+    food.h \
+    snake.h \
+    constants.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    res.qrc
