@@ -1,6 +1,8 @@
 #include "gamecontroller.h"
 #include <QMessageBox>
 #include <QDebug>
+#include <QTime>
+#include <QtGlobal>
 
 GameController::GameController(QGraphicsScene& scene,QObject* parent)
     :QObject(parent)
@@ -43,8 +45,8 @@ void GameController::addNewFood()
 
     do
     {
-        x = (qrand()%200)/10-10;
-        y = (qrand()%200)/10-10;
+        x = (rand()%200)/10-10;
+        y = (rand()%200)/10-10;
         x *=10;
         y *=10;
 
